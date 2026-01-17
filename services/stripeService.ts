@@ -2,7 +2,7 @@
 import { loadStripe } from '@stripe/stripe-js';
 
 // The user-provided Live Stripe Publishable Key
-const STRIPE_PUBLISHABLE_KEY = 'pk_live_51PiX5oRCtDyI9E1sDwMKgUKYWOt31FwnXxojyJmh3StzYlg3z2xDJ1Cui5zmBXruoKYFf0BknceLvJMArpgHFAnU00bFOgGquN';
+const STRIPE_PUBLISHABLE_KEY = '' + process.env.STRIPE_API_KEY + '';
 
 export const stripePromise = loadStripe(STRIPE_PUBLISHABLE_KEY);
 
