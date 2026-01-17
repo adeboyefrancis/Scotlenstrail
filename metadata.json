@@ -1,0 +1,9 @@
+{
+  "name": "ScotLens Trails",
+  "description": "Premium AR tourism application for Scotland featuring interactive trails, business partner integration, and AI-powered history guides.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
