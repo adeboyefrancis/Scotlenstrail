@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "scotlens-trails.firebaseapp.com",
   projectId: "scotlens-trails",
   storageBucket: "scotlens-trails.firebasestorage.app",
